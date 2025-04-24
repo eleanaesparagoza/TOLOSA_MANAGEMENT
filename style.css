@@ -25,14 +25,32 @@ header {
     margin-right: 10px;
 }
 
-nav a {
-    margin: 0 10px;
+.nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .nav-btn {
+    background-color: #e9bca5;
+    border: 1px solid #8a6f5a;
+    padding: 8px 14px;
+    border-radius: 4px;
     text-decoration: none;
-    color: black;
+    color: #3b2e2a;
     font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
+  }
+  
+  .nav-btn:hover {
+    background-color: #d9a58c;
+  }
+  
+  .nav-link {
+    margin-left: 12px;
+    text-decoration: underline;
+    color: #3b2e2a;
+    font-weight: bold;
+  }
 
 .register, .login {
     font-weight: bold;
