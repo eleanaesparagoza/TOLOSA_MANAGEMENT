@@ -88,7 +88,6 @@ body {
   
   /* REGISTER LINK */
   .nav-link {
-    text-decoration: underline;
     color: #3b2e2a;
     padding: 0 10px;
     background: none;
