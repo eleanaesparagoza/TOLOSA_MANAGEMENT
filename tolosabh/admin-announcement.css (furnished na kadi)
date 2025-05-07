@@ -1,4 +1,3 @@
-/* BASE */
 body {
   font-family: 'IBM Plex Serif', Arial, sans-serif;
   margin: 0;
@@ -76,12 +75,23 @@ header {
   background-color: #d9a58c;
 }
 
-.profile-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  padding-left: 10px;
+.profile-button {
+  background-color: #333;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-button:hover {
+  background-color: #555;
+}
+
+.profile-button svg {
+  display: block;
+  width: 24px;
+  height: 24px;
 }
 
 /* MAIN CONTENT */
@@ -144,5 +154,4 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #c49577;
 }
-
 
