@@ -40,12 +40,25 @@
       </div>
     </section>
 
-    <section class="community-forum">
-  <h2>APARTMENT COMMUNITY FORUM</h2>
-  <p>Please state your feedback or issues here. Thank you!</p>
-  <textarea placeholder="Enter Text"></textarea>
-  <button>Submit</button>
-</section>
+    <h1>REPORT A CONCERN</h1>
+    <div class="report-box">
+      <form>
+        <label for="subject">Name:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <button type="submit">Send Report</button>
+      </form>
+    </div>
 
   </main>
 </body>
