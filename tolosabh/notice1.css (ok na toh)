@@ -109,42 +109,60 @@ body {
     border-radius: 5px;
   }
   
-  .community-forum {
-    padding: 15px;
-    margin: 10px auto;
-    background-color: #f8e8dc;
+  main {
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .report-box {
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #2c2c2c;
     border-radius: 10px;
-    width: 80%;
-    max-width: 700px;
+    padding: 20px;
+  }
+  
+  form {
     display: flex;
     flex-direction: column;
-    align-items: stretch; /* ensures full width for textarea and button */
-    box-sizing: border-box;
+    gap: 15px;
+    text-align: left;
   }
   
-  .community-forum textarea {
-    width: 100%;
-    height: 70px;
-    border-radius: 5px;
-    border: 1px solid #DBB19E;
-    margin-top: 10px;
+  label {
+    font-weight: bold;
+    font-size: 0.95em;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    font-family: 'Georgia', serif;
     padding: 8px;
-    resize: vertical;
-    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 0.95em;
+    background-color: #fdf8f2;
   }
   
-  .community-forum button {
-    margin-top: 10px;
-    padding: 10px 16px;
-    background-color: #E8B9A7;
-    color: #fff;
-    border: none;
+  button[type="submit"] {
+    background-color: #d2aa8e;
+    border: 1px solid #8b6d5c;
+    color: #000;
+    padding: 10px;
+    font-family: 'Georgia', serif;
+    font-size: 1em;
     border-radius: 5px;
     cursor: pointer;
-    align-self: flex-end; /* keeps the button aligned nicely */
   }
   
-  .community-forum button:hover {
-    background-color: #d9a592;
+  button[type="submit"]:hover {
+    background-color: #c49577;
   }
   
