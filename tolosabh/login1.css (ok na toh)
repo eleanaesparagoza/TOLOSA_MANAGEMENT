@@ -1,85 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
 body {
+    font-family: 'IBM Plex Serif', serif;;
     margin: 0;
-    font-family: 'IBM Plex Serif', Arial, sans-serif;
-    background-color: #f0dfc7; /* Beige background */
+    padding-top: 100px; /* prevent header overlap */
+    background-color: #e3c7a3;
+    text-align: center;
+    box-sizing: border-box;
   }
   
+  /* HEADER */
   header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #d2aa8e;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #c19a77;
-    padding: 15px 30px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    width: 100px;
-    margin-right: 10px;
-}
-.nav-bar {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+    height: 90px;
+    padding: 0 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
   }
   
+  /* LOGO */
+  .logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .logo img {
+    height: 160px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  /* NAVBAR BUTTON CONTAINER */
+  .nav-bar,
+  .header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    height: 100%;
+  }
+  
+  /* BUTTON BASE */
+  .nav-btn,
+  .auth-btn,
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 14px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: 1;
+    margin: 0;
+  }
+  
+  /* NAV-BTN STYLE */
   .nav-btn {
     background-color: #e9bca5;
     border: 1px solid #8a6f5a;
-    padding: 8px 14px;
-    border-radius: 4px;
-    text-decoration: none;
     color: #3b2e2a;
-    font-weight: bold;
+    border-radius: 6px;
   }
-  
   .nav-btn:hover {
     background-color: #d9a58c;
   }
   
-  .nav-link {
-    margin-left: 12px;
-    text-decoration: underline;
-    color: #3b2e2a;
-    font-weight: bold;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .nav-buttons {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  nav button {
-    padding: 10px 15px;
+  /* LOGIN */
+  .auth-btn {
+    background-color: #AD8B73;
+    color: white;
     border: none;
-    background-color: #d9a58c;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    border-radius: 10px;
+  }
+  .auth-btn:hover {
+    background-color: #946b57;
   }
   
-  nav button:hover {
-    background-color: #c99d8c;
+  /* REGISTER LINK */
+  .nav-link {
+    color: #3b2e2a;
+    padding: 0 10px;
+    background: none;
   }
   
-  
-  /* Container Styles */
   .container {
     display: flex;
     justify-content: center;
@@ -147,4 +159,5 @@ body {
     text-decoration: none;
     font-weight: bold;
   }
+   
   
