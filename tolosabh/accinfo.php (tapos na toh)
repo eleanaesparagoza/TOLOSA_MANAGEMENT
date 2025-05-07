@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Account Information Dashboard</title>
+  <link rel="stylesheet" href="accinfo.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="IMG/TOLOSA.png" alt="Logo">
+    </div>
+
+    <nav class="nav-bar">
+      <button class="nav-btn">Resident Services</button>
+      <button class="nav-btn">Community Building</button>
+      <button class="nav-btn">View Invoices</button>
+      <button class="nav-btn">About Us</button>
+    </nav>
+
+    <button class="profile-button" onclick="alert('Profile clicked!')">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
+      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+      <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+    </svg>
+  </button>
+  </header>
+
+    </div>
+  </header>
+
+  <main>
+    <h1 style="text-align: center; font-family: 'IBM Plex Serif', serif;">ACCOUNT INFORMATION</h1>
+
+    <div class="card mb-3" style="max-width: 540px; margin: 0 auto; background-color: #f8f8f8; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+      <div class="row g-0">
+        <div class="col-md-4" style="text-align: center;">
+          <img src="profile-placeholder.jpg" class="img-fluid rounded-start" alt="Profile Picture" style="max-width: 100px; border-radius: 50%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p><strong>Full Name:</strong><br><span><!-- Insert Name Here --></span></p>
+            <p><strong>Address:</strong><br><span><!-- Insert Address Here --></span></p>
+            <p><strong>Contact No.:</strong><br><span><!-- Insert Contact No. Here --></span></p>
+            <p><strong>Birthday:</strong><br><span><!-- Insert Birthday Here --></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
