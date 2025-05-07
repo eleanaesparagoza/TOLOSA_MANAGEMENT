@@ -1,0 +1,145 @@
+/* BASE */
+body {
+    font-family: 'IBM Plex Serif', Arial, sans-serif;
+    margin: 0;
+    padding-top: 100px; /* prevent header overlap */
+    background-color: #e3c7a3;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  /* HEADER */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #d2aa8e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  /* LOGO */
+  .logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .logo img {
+    height: 160px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  /* NAVBAR BUTTON CONTAINER */
+  .nav-bar,
+  .header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    height: 100%;
+  }
+  
+  /* BUTTON BASE */
+  .nav-btn,
+  .auth-btn,
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 14px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: 1;
+    margin: 0;
+    font-family: 'IBM Plex Serif', Arial, sans-serif; /* Ensures consistent font */
+  }
+  
+  /* NAV-BTN STYLE */
+  .nav-btn {
+    background-color: #e9bca5;
+    border: 1px solid #8a6f5a;
+    color: #3b2e2a;
+    border-radius: 6px;
+  }
+  .nav-btn:hover {
+    background-color: #d9a58c;
+  }
+  
+  .profile-button {
+    background-color: #333;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-button:hover {
+    background-color: #555;
+  }
+  
+  .profile-button svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+
+  main {
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .report-table-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #2c2c2c;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Georgia', serif;
+  }
+  
+  thead {
+    background-color: #f7d9c4;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #999;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  td {
+    background-color: #fdf8f2;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) td {
+    background-color: #f9f1e3;
+  }
