@@ -1,57 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register - Tolosa Boarding House</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="register.css">
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="register.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="logo-placeholder.png" alt="Tolosa Boarding House Logo">
-            <span>TOLOSA BOARDING HOUSE</span>
-        </div>
-        <nav>
-            <a href="#">Resident Services</a>
-            <a href="#">Community Building</a>
-            <a href="#">View Invoices</a>
-            <a href="#">About Us</a>
-            <a href="#" class="login-link">Log In</a>
-        </nav>
-    </header>
+  <header>
+    <div class="logo">
+      <img src="IMG/TOLOSA.png" alt="Logo">
+    </div>
 
-    <main>
-        <h1>REGISTER NOW</h1>
-        <div class="register-box">
-            <form>
-                <label>First Name</label>
-                <input type="text" placeholder="Value">
+    <nav class="nav-bar">
+      <a href="#" class="nav-btn">Resident Services</a>
+      <a href="#" class="nav-btn">Community Building</a>
+      <a href="#" class="nav-btn">View Invoices</a>
+      <a href="#" class="nav-btn">About Us</a>
+    </nav>
 
-                <label>Last Name</label>
-                <input type="text" placeholder="Value">
+    <div class="header-right">
+        <button class="auth-btn">Login</button>
+      </div>
+  </header>
 
-                <label>Contact No.</label>
-                <input type="text" placeholder="Value">
+  <main>
+    <h1>REGISTER NOW</h1>
+    <div class="register-box">
+      <form>
+        <label>First Name</label>
+        <input type="text" placeholder="Value">
 
-                <label>Address</label>
-                <input type="text" placeholder="Value">
+        <label>Last Name</label>
+        <input type="text" placeholder="Value">
 
-                <label>Email</label>
-                <input type="email" placeholder="Value">
+        <label>Contact No.</label>
+        <input type="text" placeholder="Value">
 
-                <label>Create Password</label>
-                <input type="password" placeholder="Value">
+        <label>Address</label>
+        <input type="text" placeholder="Value">
 
-                <button type="submit">Register</button>
-            </form>
-            <p>If you have created an account please log in here</p>
-            <a href="#" class="login-link">Log In</a>
-        </div>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+        <label>Email</label>
+        <input type="email" placeholder="Value">
+
+        <label>Create Password</label>
+        <input type="password" placeholder="Value">
+
+        <button type="submit">Register</button>
+      </form>
+      <p>If you have created an account, please log in here:</p>
+      <a href="#" class="login-link">Log In</a>
+    </div>
+  </main>
 </body>
 </html>
-
